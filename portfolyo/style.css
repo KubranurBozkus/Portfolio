@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+    .body {
+    font-family: Neuemontreal,sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    width: 105wh;
+    
+    text-transform: none;
+
+}
+
+.sidebar {
+
+    background-color: #fed43a;
+    width:7%;
+    height: 105vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: auto;
+    z-index: 50;
+    display:flex ;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    border-color: transparent;
+
+
+
+}
+
+.sidebar .hamburgerwrapper {
+    /* height: 10vh; */
+    position: absolute;
+    width: 100%;
+    vertical-align: top;
+}
+
+.sidebar .hamburgerwrapper .navigation {
+    transform: rotate(-90deg);
+    display: flex;
+    line-height: 845px;
+
+
+}
+
+
+
+.sidebar .hamburgerwrapper .navigation a {
+    text-decoration: none;
+    font-family: roc-grotesk,sans-serif;
+    
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    margin: 7px;
+    padding: 8px;
+    color: #000;
+    
+    
+    
+    
+    
+}
+
+.header {
+
+    height: 21%;
+    width: 53%;
+    background-color:rgba(0, 0, 0, 0.938);
+    margin-top: 0;
+    line-height: 56px;
+    text-shadow: none;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFFFFF;
+    
+}
+
+
+
+.h1-header{
+    display: inline-block;
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 150px;
+    font-size: 5vw;
+    font-family: Neuemontreal,sans-serif;
+    color: #121212;
+    letter-spacing: -6px;
+    
+}
+
+.h1-headerr {
+    display: inline-block;
+    text-align: center;
+    margin-left: 151px;
+    color: #fff;
+    font-size: 65px;
+    margin-top: -19px;
+    font-family: Neuemontreal,sans-serif;
+    letter-spacing: -2px;
+    
+
+}
+
+.h1-header2 {
+    display: inline-block;
+    text-align: center;
+    margin-top: -2rem;
+    
+    margin-left: 155px;
+    font-size: 5vw;
+    font-family: Neuemontreal,sans-serif;
+    color: #121212;
+    letter-spacing: -3px;
+}
+
+
+.firstheader {
+    width: 100%;
+    height: 100%;
+    background-color: #fed43a;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.tool {
+
+    display: inline-block;
+    margin: 95px;
+    margin-inline-start: 170px;
+    font-family: Neuemontreal,sans-serif;
+    font-size: 26px;
+    vertical-align: inherit;
+    color: #fff;
+    font-size: 2vw;
+    line-height: 2;
+    
+    
+
+
+    
+}
+
+.tool .h3 {
+    font-weight: 500;
+
+}
+
+
+.leftside {
+    display: inline-block;
+    margin: 95px;
+    margin-inline-start: 210px;
+    font-family: Neuemontreal,sans-serif;
+    font-size: 8.5rem;
+    vertical-align: inherit;
+    color: #fff;
+    font-size: 3vw;
+    line-height: 2;
+
+   
+
+}
+
+.leftside .h1 {
+    margin: 120px;
+}
+
+
+.about {
+    display: inline-block;
+    margin: 600px;
+    margin-inline-start: 180px;
+    font-family: Neuemontreal,sans-serif;
+    color: #fed43a;
+    font-size: 3.5vw;
+    -webkit-text-stroke-color:#fed43a;
+
+}
+
+.about .h1 {
+    line-height: .9; 
+}
+
+
+.about1 {
+    width: 800px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.938);
+    border-radius: 25px;
+    border:15px solid #fed43a;
+    box-shadow: 5px 10px #e0b516;
+    margin:120px;
+    margin-top: -500px;
+    margin-left: 350px;
+}
+
+.about1 img {
+    margin-left: 100px;
+    margin-top: 51px;
+}
+
+ .about1 .p {
+    font-family: Neuemontreal,sans-serif;
+    color: var(--white);
+    text-transform: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    
+
+}
+    
+.secondheader {
+    margin-top: 134px;
+    margin-left: 563px; 
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.938);
+    font-family: Neuemontreal,sans-serif;
+    letter-spacing:-2px;
+    
+    
+
+}
+
+.secondheader .h1 {
+    font-weight: 790px;
+}
+
+.secondheader .secondheader1 {
+    width: 1000px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.938);
+    border-radius: 25px;
+    border:15px solid  white;
+
+    margin-top: 80px;
+    margin-left:-400px;
+
+
+}
+
+
+
+.secondheader1 .secondheader3 {
+    display: flex;
+    margin-top: 100px;
+    margin-left:60px;
+    color: #fff;
+    letter-spacing: 0px;
+}
+
+
+.secondheader1 .secondheader3 .yazi {
+    margin-left: 75px;
+}
+
+
+input {
+    width:300px;
+    height: 35px;
+    border: 2px solid gray;
+    background-color: rgb(90, 86, 86);
+    border-radius: 4px;
+}
+
+.secondheader4 {
+    margin-top: 47px;
+    margin-left:60px;
+    color: #fff;
+    letter-spacing: 0px;
+    display: flex;
+    letter-spacing: 0px;
+    
+
+}
+
+.secondheader5 {
+    margin-left: 380px;
+    margin-top: 50px;
+
+}
+
+button {
+    width: 230px;
+    height: 50px;
+    background-color: #fed43a;
+}
+
+
+
+
+
+
+
+
+
+
